@@ -1,0 +1,27 @@
+.section3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    .imgsection3 {
+        position: relative;
+        margin: -200px auto auto auto;
+    }
+
+    .paragraph {
+        grid-column-start: 2;
+
+        h3 {
+        width: 399px;
+        height: 62px;
+        margin-top: 0.5%; 
+        font-size: 48px; 
+        }
+
+        .text3 {
+            width: 464px;
+            height: 204px;
+            font-size: 16px;
+        }
+    }
+   
+
+}

@@ -1,0 +1,32 @@
+.section6 {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 2(50%);
+    position: relative;
+    width: auto;
+    height: 518px;
+    background-image: linear-gradient(#0000FF, #0000A3);
+    clip-path: polygon(0 23%, 100% 0, 100% 100%, 0 calc(100% - 0vw));
+    /* change the calc height to a percentage height to get alternate responsive behavior*/
+   
+    h6 {
+        text-align: center;
+        color: #ffffff;
+        font-size: 48px;
+        margin: 213px 374px 36px 374px;
+    }
+    .Boton2 {
+        position: relative;
+
+        width: 345px;
+        height: 56px;
+        background-color: #00F3BB;
+    }
+    .Boton2:hover{
+        color: #ffffff;
+        background: linear-gradient(to right, #0000FE,#00F0B8);
+    }
+
+}
+
+

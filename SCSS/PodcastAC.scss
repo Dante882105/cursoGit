@@ -1,0 +1,30 @@
+* {
+    font-family: 'IBM Plex Mono';
+    color: #060A24;
+
+}
+
+.Boton1, .Boton2 {
+    font-family: 'IBM Plex Mono Medium';
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans';
+}
+
+ol, ul, a {
+list-style: none;
+text-decoration: none;
+}
+
+@import 'navbar.scss';
+@import 'variables.scss';
+@import 'section1.scss';
+@import 'section2.scss';
+@import 'section3.scss';
+@import 'section4.scss';
+@import 'section5.scss';
+@import 'section6.scss';
+@import 'footer.scss';
+@import 'responsive.scss';

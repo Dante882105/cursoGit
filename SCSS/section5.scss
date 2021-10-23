@@ -1,0 +1,30 @@
+.section5 { 
+
+    h5 {
+        width: 586px;
+        height: 62px;
+        font-size: 48px;
+        margin: 64px auto 56px 200px;
+    }
+
+    ol {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        margin: 0px 200px 0px 200px;
+    }
+
+    li {
+        display: flex;
+        flex-direction: center;
+        font-size: 24px;
+        margin-bottom: 114px;
+    }
+
+
+    a {
+        text-align: center;
+        width: 104px;
+        height: 104px;
+    }
+
+}

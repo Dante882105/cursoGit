@@ -1,0 +1,44 @@
+
+    .logo1{
+        display: flex;
+        margin: 22px 0px 22px 100px;
+    } 
+
+
+.menu_navigation {
+
+    .navigation_list{
+        float: right;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin: -41px 0px 22px 0px;
+        font-size: 16px;
+    }
+    li {
+        margin: 0 32px 0 48px;
+    }
+}
+    .burguer_menu {
+        border: none;
+        float: right;
+        display: none;
+    }
+    .burguer_menu:before, .burguer_menu:after {
+        background-color: black;
+        content: "";
+        display: block;
+        height: 3px;
+        width: 40px;
+        transition: all 200ms ease-in-out;
+    }
+    .burguer_menu:before{
+        box-shadow: 0 6px 0 black;
+        margin-bottom: 9px;
+    }
+    .burguer_menu:focus + nav.menu_navigation {
+        display: flex;
+        flex-direction: column;
+    }
+
+
